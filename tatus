@@ -1,0 +1,130 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex de7e343..66a403f 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,16 +1,116 @@[m
+[31m-<img src="banner.svg" alt="Yashwant. I build CareerXcelerator at EduBot. 2,519 contributions in 2026." width="100%">[m
+[32m+[m[32m<picture>[m
+[32m+[m[32m  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-dark-mobile.svg">[m
+[32m+[m[32m  <source media="(max-width: 600px)" srcset="./assets/hero-light-mobile.svg">[m
+[32m+[m[32m  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">[m
+[32m+[m[32m  <img src="./assets/hero-light.svg" alt="Yashwant. Interviews, built carefully. Full stack developer." width="100%">[m
+[32m+[m[32m</picture>[m
+ [m
+[31m-<h3 align="center">AI mock interviews, and the recruiter inbox.</h3>[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m  <a href="#about-me">About</a> &nbsp;·&nbsp;[m
+[32m+[m[32m  <a href="#tech-stack">Stack</a> &nbsp;·&nbsp;[m
+[32m+[m[32m  <a href="#selected-engineering-work">Work</a> &nbsp;·&nbsp;[m
+[32m+[m[32m  <a href="#lets-connect">Connect</a>[m
+[32m+[m[32m</p>[m
+ [m
+ <p align="center">[m
+[31m-  I work on CareerXcelerator at EduBot.<br>[m
+[31m-  One side is the interview a student takes. The other is the mail that belongs to that application.[m
+[32m+[m[32m  <picture>[m
+[32m+[m[32m    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-static.svg">[m
+[32m+[m[32m    <img src="./assets/intro-static.svg" alt="The interview, then the mail that belongs to it." width="720">[m
+[32m+[m[32m  </picture>[m
+ </p>[m
+ [m
+[31m-| AI Mock | Recruiter mail | How it is built |[m
+[31m-|---|---|---|[m
+[31m-| The live interview, the score, and the feedback the student reads when it ends. | The inbox that keeps a note when it names the company and the role, and drops the one that does not. | TypeScript and React on the screen. The API on the other side of it. |[m
+[32m+[m[32m## About me[m
+ [m
+[31m-<p align="center">[m
+[31m-  <code>yashveda13</code>[m
+[32m+[m[32mI’m **Yashwant**, a full stack developer. I build the interview a person takes, the score they read when it ends, and the recruiter mail that belongs to that application.[m
+[32m+[m
+[32m+[m[32mThe screen is TypeScript and React. The API is the other side of the same feature. I care about the case that must stay, and the similar case that must go the other way.[m
+[32m+[m
+[32m+[m[32mI also review pull requests and keep a change small enough that the next person can see what it does.[m
+[32m+[m
+[32m+[m[32m## Tech stack[m
+[32m+[m
+[32m+[m[32m**Interface**[m
+[32m+[m
+[32m+[m[32m<p>[m
+[32m+[m[32m  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/typescript-dark.svg"><img src="./assets/stack/typescript-light.svg" alt="TypeScript" width="146" height="56"></picture>[m
+[32m+[m[32m  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/react-dark.svg"><img src="./assets/stack/react-light.svg" alt="React" width="146" height="56"></picture>[m
+[32m+[m[32m  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/tailwindcss-dark.svg"><img src="./assets/stack/tailwindcss-light.svg" alt="Tailwind CSS" width="146" height="56"></picture>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m**API**[m
+[32m+[m
+[32m+[m[32m<p>[m
+[32m+[m[32m  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack/nodedotjs-dark.svg"><img src="./assets/stack/nodedotjs-light.svg" alt="Node.js" width="146" height="56"></picture>[m
+ </p>[m
+[32m+[m
+[32m+[m[32m**Delivery** &nbsp; Git · GitHub Actions[m
+[32m+[m
+[32m+[m[32m## Where I contribute[m
+[32m+[m
+[32m+[m[32m- **The interview** — the live session, the score, and the feedback the person reads when it ends.[m
+[32m+[m[32m- **The inbox** — a note that names the job stays. A note that does not name the job is dropped. A later note on the same thread stays.[m
+[32m+[m[32m- **The screen around it** — layout, scroll, and the path back from a coding question, including on a phone.[m
+[32m+[m[32m- **The review** — a pull request that says what changed, and a test for the case that must go the other way.[m
+[32m+[m
+[32m+[m[32m## Selected engineering work[m
+[32m+[m
+[32m+[m[32m### 01 / AI mock interview[m
+[32m+[m
+[32m+[m[32mThe session itself: the question, the answer, the score, and the feedback. Coding questions sit in the same interview, with a way back to the feedback when the code is done.[m
+[32m+[m
+[32m+[m[32m`TypeScript` `React` `Interview flow`[m
+[32m+[m
+[32m+[m[32m### 02 / Recruiter inbox[m
+[32m+[m
+[32m+[m[32mMail is kept when it names the job on the application. Mail that does not name the job is dropped. A follow-up on a thread that is already kept stays, even when that later note does not repeat the job.[m
+[32m+[m
+[32m+[m[32m`Inbox rules` `React` `API`[m
+[32m+[m
+[32m+[m[32m### 03 / The screen that holds the interview[m
+[32m+[m
+[32m+[m[32mThe layout around the interview: where the page scrolls, how a coding question returns, and the small fixes that keep the same screen usable on a phone.[m
+[32m+[m
+[32m+[m[32m`Layout` `Tests` `Mobile`[m
+[32m+[m
+[32m+[m[32m## How I build[m
+[32m+[m
+[32m+[m[32m**Read the screen. Name the case. Write the test. Ship the change.**[m
+[32m+[m
+[32m+[m[32mA feature is done when the case that looks similar, and must go the other way, is written down and covered.[m
+[32m+[m
+[32m+[m[32m## Public code[m
+[32m+[m
+[32m+[m[32m[Explore my repositories →](https://github.com/yashveda13?tab=repositories)[m
+[32m+[m
+[32m+[m[32m<details>[m
+[32m+[m[32m  <summary>View my GitHub snapshot</summary>[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m<picture>[m
+[32m+[m[32m  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/github-stats-dark-mobile.svg">[m
+[32m+[m[32m  <source media="(max-width: 600px)" srcset="./assets/github-stats-light-mobile.svg">[m
+[32m+[m[32m  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg">[m
+[32m+[m[32m  <img src="./assets/github-stats-light.svg" alt="2,519 contributions in 2026, 2,054 in 2025, 203 in 2024, and 1 in 2023. Counted on 23 Nov 2026." width="100%">[m
+[32m+[m[32m</picture>[m
+[32m+[m
+[32m+[m[32mThese are the green squares on the profile, counted on 23 Nov 2026. They include private work. They are not a skill score. [View the snapshot data](./assets/github-stats.json).[m
+[32m+[m
+[32m+[m[32m</details>[m
+[32m+[m
+[32m+[m[32m## Let’s connect[m
+[32m+[m
+[32m+[m[32mIf you want to talk about interview products, inboxes, or the screen a person actually uses, start here.[m
+[32m+[m
+[32m+[m[32m**[GitHub](https://github.com/yashveda13)**[m
+[32m+[m
+[32m+[m[32m<!-- CONTACT_LINKS: When you have a public link, paste it on the next line and delete this comment.[m
+[32m+[m[32m[LinkedIn](REPLACE_LINKEDIN_URL) · [Email](mailto:REPLACE_PUBLIC_EMAIL)[m
+[32m+[m[32m-->[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m<picture>[m
+[32m+[m[32m  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">[m
+[32m+[m[32m  <img src="./assets/footer-light.svg" alt="Read the screen. Name the case. Yashwant / @yashveda13" width="100%">[m
+[32m+[m[32m</picture>[m
