@@ -21,33 +21,29 @@ I read the screen, name the case that must stay, and write the test for the simi
 
 ## Skills
 
-From the year report, 31 Jul 2025 to 31 Jul 2026. That report counts **795** commits. Each bar is that theme’s printed count, added across the months. These are not the green squares.
+Every ordinary commit in the full list, from **3 Feb 2025** through **23 Nov 2026**. Merges and `deploy.yml`-only updates are not in these bars. A commit on a screen repository is **Frontend**. A commit on an API repository is **Backend**. The title does not move it.
 
 <p>
   <picture>
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/skills-dark-mobile.svg">
     <source media="(max-width: 600px)" srcset="./assets/skills-light-mobile.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/skills-dark.svg">
-    <img src="./assets/skills-light.svg" alt="Skills. Frontend 233, the screen in TypeScript and React. Interviews 150, the question, the score, the feedback, the coding round. Auth and admin 116. Navigation 68. Backend 28. APIs 26. Job data 25. Resume and a job 23." width="100%">
+    <img src="./assets/skills-light.svg" alt="Frontend 1,419. The screen. TypeScript and React. Backend 300. The API on the other side of that screen." width="100%">
   </picture>
 </p>
 
-| Skill | Count | What it is |
+| Skill | Commits | What it is |
 |---|---:|---|
-| Frontend | 233 | The screen, in TypeScript and React. |
-| Interviews | 150 | The question, the score, the feedback, the coding round. |
-| Auth and admin | 116 | Who can open the screen, and the tools around it. |
-| Navigation | 68 | Scroll, the header, and the way back. |
-| Backend | 28 | The service on the other side of the screen. |
-| APIs | 26 | The route that returns the number. |
-| Job data | 25 | Career pages, collected. |
-| Resume and a job | 23 | The resume beside the job, and a result to check. |
+| Frontend | 1,419 | The screen. TypeScript and React. |
+| Backend | 300 | The API on the other side of that screen. |
 
-A month in the report prints its leading themes, so a theme that fell off a month’s list is not in that month’s bar. The eight bars do not add up to 795.
+On 23 Nov 2026 at 4:08 PM IST, `refactor(interview): streamline readiness score calculation` is Frontend. The same afternoon, at 3:39 PM IST, `fix(aiMock): enhance irrelevance detection` is Backend. Both titles are about an interview. The screen change stays Frontend. The API change stays Backend.
+
+One commit in the list is the list itself, on 8 Nov 2026. It is neither bar. 1,419 and 300 are the rest. They are not the green squares.
 
 ## Technologies
 
-The languages and tools on that work. The marks are the real ones.
+The tools in that same list. The marks are the real ones.
 
 <p>
   <picture>
